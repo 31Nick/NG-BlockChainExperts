@@ -36,7 +36,7 @@ A full-stack AI-powered chatbot that lets you converse with blockchain and crypt
 1. **Clone the repository**
    ```bash
    git clone <repo-url>
-   cd NG-DenisBlockChain
+   cd NG-BlockChainExperts
    ```
 
 2. **Set up the server**
