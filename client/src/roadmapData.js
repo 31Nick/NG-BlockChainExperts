@@ -1,0 +1,51 @@
+export const roadmapTopics = [
+  {
+    id: 'fundamentals',
+    title: '🧱 Blockchain Fundamentals',
+    description: 'What is a blockchain? How do blocks, hashes, and chains work together? Understanding decentralization and why it matters.',
+    expert: 'web3-educator',
+    subtopics: ['What is a blockchain?', 'Hashing and cryptography basics', 'Blocks, chains, and immutability', 'Decentralization vs centralization', 'Peer-to-peer networks'],
+  },
+  {
+    id: 'bitcoin',
+    title: '₿ Bitcoin Deep Dive',
+    description: 'The first cryptocurrency — how Bitcoin works, mining, proof of work, and the vision of sound digital money.',
+    expert: 'satoshi-purist',
+    subtopics: ['The Bitcoin whitepaper', 'Proof of Work explained', 'Mining and block rewards', 'Bitcoin halving', 'Lightning Network', 'Self-custody and wallets'],
+  },
+  {
+    id: 'ethereum',
+    title: '⟠ Ethereum & Smart Contracts',
+    description: 'The world computer — how Ethereum enables programmable money, smart contracts, and decentralized applications.',
+    expert: 'blockchain-architect',
+    subtopics: ['Ethereum vs Bitcoin', 'Smart contracts explained', 'Solidity basics', 'EVM (Ethereum Virtual Machine)', 'Gas fees and optimization', 'The Merge (PoW → PoS)'],
+  },
+  {
+    id: 'defi',
+    title: '🏦 Decentralized Finance (DeFi)',
+    description: 'Banking without banks — lending, borrowing, trading, and earning yield through decentralized protocols.',
+    expert: 'defi-strategist',
+    subtopics: ['DEXs vs CEXs', 'Automated Market Makers', 'Lending protocols (Aave, Compound)', 'Yield farming strategies', 'Stablecoins', 'Risks: impermanent loss, rug pulls'],
+  },
+  {
+    id: 'nfts',
+    title: '🎨 NFTs & Digital Assets',
+    description: 'Unique digital ownership — what NFTs are, how they work, real-world use cases beyond art.',
+    expert: 'web3-educator',
+    subtopics: ['What makes NFTs unique?', 'ERC-721 and ERC-1155 standards', 'NFT marketplaces', 'Use cases: art, gaming, identity', 'Environmental concerns', 'The future of digital ownership'],
+  },
+  {
+    id: 'web3',
+    title: '🌐 Web3 & DAOs',
+    description: 'The decentralized internet — dApps, DAOs, digital identity, and the evolution from Web1 to Web3.',
+    expert: 'web3-educator',
+    subtopics: ['Web1 → Web2 → Web3 evolution', 'Decentralized applications (dApps)', 'DAOs and governance', 'Digital identity and sovereignty', 'Interoperability and bridges'],
+  },
+  {
+    id: 'regulation',
+    title: '⚖️ Regulation & Critical Thinking',
+    description: 'The other side — regulatory frameworks, environmental impact, scams, and developing a balanced perspective.',
+    expert: 'crypto-skeptic',
+    subtopics: ['SEC, MiCA, and global regulation', 'Environmental impact and energy use', 'Common scams and how to spot them', 'Market manipulation', 'Historical crashes (Mt. Gox, FTX, Terra)', 'Balanced perspective on crypto\'s future'],
+  },
+];
